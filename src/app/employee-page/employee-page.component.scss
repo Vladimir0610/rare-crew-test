@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 50px;
+    width: 40%;
+
+    th {
+        background-color: #e7eff8;
+        font-weight: bold;
+    }
+
+    th,
+    td {
+        text-align: center;
+        padding: 7px;
+        border: 1px solid rgb(207, 206, 206);
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .column-name,
+    .name {
+        text-align: left;
+    }
+
+    .bold-row {
+        font-weight: 500;
+    }
+}
+
+.chart {
+    padding: 50px;
+}
